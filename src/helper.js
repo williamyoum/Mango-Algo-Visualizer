@@ -112,6 +112,13 @@ const sorts = {
         }
         // this is the main part i guess
         mergeSort(array);
+    },
+    binary: (array, callback) =>{
+        const binarySearch = async (array) =>{
+        
+
+
+        }
     }
 }
 export {
