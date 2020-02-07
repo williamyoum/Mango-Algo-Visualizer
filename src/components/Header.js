@@ -20,18 +20,23 @@ function Header() {
   const titleStyle = {
     fontWeight: 'bold',
     fontSize: '1.5rem',
+
   }
+  const listStyle = {
+    margin: '0 1% 0 1% ',
+  }
+
   
   return (
     <nav style={navStyle}>
       <Link to="/"><img style={logoStyle} src={mango} alt="Logo" /></Link>
       <div style={titleStyle}>Mango</div>
-      {/* fix whitespacing later */}
-      &nbsp; 
-      <div style = {titleStyle}><Link to="/sort">SORT</Link></div>
-      &nbsp;
-      <div style = {titleStyle}><Link to="/graph">GRAPH</Link> </div>
-      &nbsp;
+        &nbsp; 
+        <div style = {listStyle}><Link to="/sort">SORT</Link></div>
+          &nbsp;
+        <div style = {listStyle}><Link to="/graph">GRAPH</Link> </div>
+          &nbsp;
+
     </nav>
   );
 }

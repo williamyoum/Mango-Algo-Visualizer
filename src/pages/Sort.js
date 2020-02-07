@@ -38,6 +38,7 @@ class SortPage extends Component {
             case "mergeSort":
                 sorts.merge(this.state.array, (array) => this.setState({array: array}));
                 break;
+            
             default:
                 break;
         }
