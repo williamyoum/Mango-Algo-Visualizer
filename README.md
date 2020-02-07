@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Intro
+
+A Sorting Visualizer built with React.
+
+https://williamyoum.github.io/Mango-Algo-Visualizer/
+
+
+## Implementation
+
+## Front end
+The front end was built with interacting React Components along with HTML/CSS.
+
+Data values are hard-coded for visual purposes. 
+The selected array size is 100 values, from 1-100, randomly shuffled.
+
+
+
+## React project setup
+
 
 ## Available Scripts
 
